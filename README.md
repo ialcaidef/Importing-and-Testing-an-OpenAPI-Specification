@@ -18,6 +18,10 @@
 
 6. In the **Search** box, type **API management**, click **Enter**, and then click **Create**.
 
+![20487D_Images](https://github.com/ialcaidef/Importing-and-Testing-an-OpenAPI-Specification/blob/main/Images/01.png)
+
+![20487D_Images](https://github.com/ialcaidef/Importing-and-Testing-an-OpenAPI-Specification/blob/main/Images/02.png)
+
 7. In the **API Management service** page, enter the following details:
 
    - Name: **Mod6demo5**{YourInitials}
@@ -31,11 +35,17 @@
 
 9. Click **All resources**, and then click on the new **API Management** section that was created.
 
+![20487D_Images](https://github.com/ialcaidef/Importing-and-Testing-an-OpenAPI-Specification/blob/main/Images/03.png)
+
 10. Under the **API MANAGEMENT** section, click **APIs**.
+
+![20487D_Images](https://github.com/ialcaidef/Importing-and-Testing-an-OpenAPI-Specification/blob/main/Images/04.png)
 
 11. Click **OpenAPI Specification**, and then enter the following details:
 
     - In **OpenAPI Specification** box, paste the following URL: **http://conferenceapi.azurewebsites.net/?format=json**
+
+![20487D_Images](https://github.com/ialcaidef/Importing-and-Testing-an-OpenAPI-Specification/blob/main/Images/05.png)
 
     > **Note**: The following URL is a Swagger JSON API that was provided by Microsoft and hosted on Microsoft Azure.
 
@@ -44,9 +54,15 @@
 
 12. In the **All APIs** section, click **Demo Conference API**.
 
+![20487D_Images](https://github.com/ialcaidef/Importing-and-Testing-an-OpenAPI-Specification/blob/main/Images/06.png)
+
 13. Click the **Test** tab, then click **GetSessions**.
 
+![20487D_Images](https://github.com/ialcaidef/Importing-and-Testing-an-OpenAPI-Specification/blob/main/Images/07.png)
+
 14. Click **Send**, and check that the response is **200** with a collection of sessions.
+
+![20487D_Images](https://github.com/ialcaidef/Importing-and-Testing-an-OpenAPI-Specification/blob/main/Images/08.png)
 
 15. Click **GetSession**, then inside the **value** box, type **100**;
 
